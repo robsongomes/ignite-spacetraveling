@@ -30,6 +30,11 @@
         }
       }
 
+      .updatedDate {
+        font-size: 0.75rem;
+        margin-top: 1.5rem;
+      }
+
       .author {
         display: inline-block;
         margin-left: 1.5rem;
@@ -64,6 +69,38 @@
         li {
           margin: 0.5rem 0;
         }
+      }
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #333;
+      margin: 3rem 0;
+    }
+
+    .postNavigation {
+      position: relative;
+      margin-bottom: 7rem;
+
+      a {
+        display: inline-block;
+        font-size: 1.125rem;
+        p {
+          font-size: 1rem;
+          margin-top: 0.8rem;
+          color: var(--pink);
+        }
+      }
+
+      .previousPost {
+        position: absolute;
+        left: 0;
+      }
+
+      .nextPost {
+        position: absolute;
+        right: 0;
       }
     }
   }
